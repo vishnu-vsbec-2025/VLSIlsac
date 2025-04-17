@@ -1,0 +1,86 @@
+# Reading C:/altera/90/modelsim_ase/tcl/vsim/pref.tcl 
+# OpenFile {C:/Users/Vishnu/Documents/Final Year project/Final_Proposed/New  - SXAFA/Main Macro tb.v} 
+vlog -reportprogress 300 -work work {C:/Users/Vishnu/Documents/Final Year project/Final_Proposed/New  - SXAFA/AFA.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module AATA
+# -- Compiling module WT
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	AATA
+vlog -reportprogress 300 -work work {C:/Users/Vishnu/Documents/Final Year project/Final_Proposed/New  - SXAFA/EFA.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module EFA
+# 
+# Top level modules:
+# 	EFA
+vlog -reportprogress 300 -work work {C:/Users/Vishnu/Documents/Final Year project/Final_Proposed/New  - SXAFA/FA.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+vlog -reportprogress 300 -work work {C:/Users/Vishnu/Documents/Final Year project/Final_Proposed/New  - SXAFA/Macro Cell.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module CIM_Macro_Cell
+# 
+# Top level modules:
+# 	CIM_Macro_Cell
+vlog -reportprogress 30 -work work {C:/Users/Vishnu/Documents/Final Year project/Final_Proposed/New  - SXAFA/Main Macro tb.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module Macro_Tb
+# 
+# Top level modules:
+# 	Macro_Tb
+vlog -reportprogress 30 -work work {C:/Users/Vishnu/Documents/Final Year project/Final_Proposed/New  - SXAFA/Main Macro.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module Macro
+# 
+# Top level modules:
+# 	Macro
+vlog -reportprogress 30 -work work {C:/Users/Vishnu/Documents/Final Year project/Final_Proposed/New  - SXAFA/SingleBitSRAM.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module single_bit_sram
+# 
+# Top level modules:
+# 	single_bit_sram
+vlog -reportprogress 30 -work work {C:/Users/Vishnu/Documents/Final Year project/Final_Proposed/New  - SXAFA/SRAM 6T.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module SRAM_6t
+# 
+# Top level modules:
+# 	SRAM_6t
+vlog -reportprogress 30 -work work {C:/Users/Vishnu/Documents/Final Year project/Final_Proposed/New  - SXAFA/SXAFA.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module SXAFA
+# 
+# Top level modules:
+# 	SXAFA
+vsim -gui work.Macro_Tb
+# vsim -gui work.Macro_Tb 
+# Loading work.Macro_Tb
+# Loading work.Macro
+# Loading work.CIM_Macro_Cell
+# Loading work.single_bit_sram
+# Loading work.AATA
+# Loading work.WT
+# Loading work.SXAFA
+# Loading work.FA
+# Loading work.HA
+# ** Warning: Design size of 12930 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+add wave -r sim:/Macro_Tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: $finish    : C:/Users/Vishnu/Documents/Final Year project/Final_Proposed/New  - SXAFA/Main Macro tb.v(32)
+#    Time: 1 ns  Iteration: 0  Instance: /Macro_Tb
+# Break in Module Macro_Tb at C:/Users/Vishnu/Documents/Final Year project/Final_Proposed/New  - SXAFA/Main Macro tb.v line 32
